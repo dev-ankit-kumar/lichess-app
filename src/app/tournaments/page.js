@@ -22,8 +22,7 @@ export default function Tournaments() {
 
         const data = await response.json();
         
-        // The Lichess API returns an object with 'created', 'started', and 'finished' tournament arrays
-        // We'll combine them all into a single array
+      
         const allTournaments = [
           ...(data.created || []),
           ...(data.started || []),

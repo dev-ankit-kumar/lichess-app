@@ -5,7 +5,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Simple Navigation */}
       <nav className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="font-bold text-xl">♟️ LiStats</div>
@@ -16,7 +15,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">
@@ -42,7 +40,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h2 className="text-xl font-bold mb-2">👤 Player Profiles</h2>
